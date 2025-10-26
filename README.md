@@ -15,7 +15,7 @@ Each record in the dataset contains:
 |-------------|-----------------------------------------------------|
 | `user_id`    | Unique anonymized user ID                            |
 | `timestamp`  | Event time (epoch milliseconds)                     |
-| `event_id`   | `"open"` or `"close"`                               |
+| `event`      | `"open"` or `"close"`                               |
 | `open_type`  | `"manual"`, `"auto"`, or `NULL` (for close events) |
 
 ---
